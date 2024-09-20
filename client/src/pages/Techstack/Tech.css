@@ -1,0 +1,40 @@
+.tech-stack {
+    padding-left:130px ;
+    margin-top: 60px;
+}
+.tech-stack hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+.tech-stack h2{
+    font-weight: bold;
+    color:#138781 ;
+}
+.tech-stack .card{
+    cursor: pointer;
+}
+.tech-stack .tech-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.tech-stack .card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #138781;
+    color: white;
+    transition: 1s;
+}
+
+/* =============================== */
+@media (max-width: 600px) {
+    .tech-stack {
+      padding: 0;
+      margin: 0;
+      margin-top: 50px;
+    }
+  
+    .tech-stack hr {
+      width: 280px;
+    }
+  }
+
